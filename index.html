@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Random Dice Generator</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="initial" id="initial">
+    <h1>Roll The Die</h1>
+    <button class="initial_buttons" onclick="startnow();">Roll it</button>
+  </div>
+
+  <div class="container dontshow" id="container">
+    <h1 id="result"></h1>
+    <div class="dice">
+      <p>Player 1</p>
+      <img class="img" src="images/dice6.png">
+    </div>
+
+    <div class="dice">
+      <p>Player 2</p>
+      <img class="img" src="images/dice6.png">
+    </div>
+    <br>
+    <br>
+    <br>
+    <div>
+      <button class="reroll_button" onclick="aftermath();">Re-Roll</button>
+    </div>
+
+  </div>
+
+  <script src="jsq.js"></script>
+</body>
+
+<footer>
+  Made with ♥ By <a href="https://github.com/Modisubham" style="color:hotpink">Subham Modi</a>
+</footer>
+</html>
